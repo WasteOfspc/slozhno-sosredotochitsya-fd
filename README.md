@@ -1,1 +1,1 @@
-https://github.com/WasteOfspc/slozhno-sosredotochitsya-fd#
+https://github.com/WasteOfspc/slozhno-sosredotochitsya-fd
