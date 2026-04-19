@@ -1,5 +1,14 @@
 :root.theme-dark {
-  --bg-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
+  --border: 1px solid var(--main-color);
+  --decor-display-switch: flex;
+  --main-color: #ff0070;
+  --accent-color: var(--main-color);
+  --bg-color: #000028;
+  --menu-button-color: var(--main-color);
   --main-text-color: #f1b2ce;
+  --main-title-color: #db00ff;
+  --section-title-color: var(--main-color);
+  --section-subtitle-color: #000028;
+  --button-border-color: rgba(255, 0, 112, .4);
 }

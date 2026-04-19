@@ -1,82 +1,32 @@
 :root.theme-light {
   --bg-image: url(../images/cover-image-light.png);
-  --bg-color: #ffc2e6;
+  --border: 1px solid var(--main-color);
+  --decor-display-switch: none;
+  --main-color: #353430;
   --accent-color: #ff8dcb;
-  --main-text-color: #353430;
-  --border: 1px solid var(--main-text-color);
-
-  .decor-dark-theme {
-    display: none;
-  }
-
-  .header__description {
-    color: #353430;
-  }
-
-  .header__theme-menu {
-    color: var(--main-text-color);
-  }
-  
-  .header__theme-menu-button:hover {
-    outline: 1px solid rgba(53, 52, 48, .4);
-  }
-  
-  .main-title {
-    color: #ffc2e6;
-  }
-  
-  .title-decor {
-    color: var(--main-text-color);
-  }
-  
-  .content-section__title {
-    color: var(--main-text-color);
-  }
-  
-  .footer__title {
-    text-shadow: 2px 2px 0 #ff0070;
-  }
+  --bg-color: #ffc2e6;
+  --menu-button-color: var(--main-color);
+  --main-text-color: var(--main-color);
+  --main-title-color: #ffc2e6;
+  --section-title-color: var(--main-color);
+  --section-subtitle-color: var(--main-color);
+  --button-border-color: rgba(53, 52, 48, .4);
 }
 
 
 @media (prefers-color-scheme: light) {
   :root {
     --bg-image: url(../images/cover-image-light.png);
-    --bg-color: #ffc2e6;
+    --border: 1px solid var(--main-color);
+    --decor-display-switch: none;
+    --main-color: #353430;
     --accent-color: #ff8dcb;
-    --main-text-color: #353430;
-    --border: 1px solid var(--main-text-color);
-  }
-
-  .decor-dark-theme {
-    display: none;
-  }
-  
-  .header__description {
-    color: #353430;
-  }
-  
-  .header__theme-menu {
-    color: var(--main-text-color);
-  }
-  
-  .header__theme-menu-button:hover {
-    outline: 1px solid rgba(53, 52, 48, .4);
-  }
-  
-  .main-title {
-    color: #ffc2e6;
-  }
-  
-  .title-decor {
-    color: var(--main-text-color);
-  }
-  
-  .content-section__title {
-    color: var(--main-text-color);
-  }
-  
-  .footer__title {
-    text-shadow: 2px 2px 0 #ff0070;
+    --bg-color: #ffc2e6;
+    --menu-button-color: var(--main-color);
+    --main-text-color: var(--main-color);
+    --main-title-color: #ffc2e6;
+    --section-title-color: var(--main-color);
+    --section-subtitle-color: var(--main-color);
+    --button-border-color: rgba(53, 52, 48, .4);
   }
 }

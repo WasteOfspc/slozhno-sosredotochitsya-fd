@@ -2,13 +2,20 @@
   --main-font: 'IBM Plex mono', monospace;
   --main-font-size: 18px;
   --main-font-weight: 700;
-  --bg-color: #000028;
-  --bg-image: url(../images/cover-image-dark.png);
   --main-text-color: #f1b2ce;
-  --accent-color: #ff0070;
-  --border: 1px solid var(--accent-color);
+
+  --bg-image: url(../images/cover-image-dark.png);
+  --decor-display-switch: flex;
+
+  --border: 1px solid var(--main-color);
+  --main-color: #ff0070;
+  --accent-color: var(--main-color);
+  --bg-color: #000028;
+  --main-title-color: #db00ff;
+  --section-title-color: var(--main-color);
+  --section-subtitle-color: #000028;
+  --menu-button-color: var(--main-color);
+  --button-border-color: rgba(255, 0, 112, .4);
+  --link-shadow-color: var(--accent-color);
+  --footer-shadow-color: #ff0070;
 }
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
